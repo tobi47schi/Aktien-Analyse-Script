@@ -57,7 +57,6 @@ df = getMovingAverage(df, 200)
     
 
 print('Done')
-
 # %%
 viewed = df.tail(50)
 viewed.plot(figsize=(10, 5))
